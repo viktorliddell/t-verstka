@@ -1,0 +1,140 @@
+.card {
+  padding: 16px;
+
+  .card__top {
+    display: flex;
+
+    .card__img {
+      width: 56px;
+      height: 56px;
+      border-radius: 3px;
+    }
+
+    .card__heading {
+      margin-left: 10px;
+      margin-top: 3px;
+      letter-spacing: 0.8px;
+      line-height: 19px;
+    }
+  }
+
+  .card__text {
+    margin-top: 14px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .card__tag {
+    margin-top: 14px;
+    font-size: 10px;
+    display: inline-block;
+    color: $card-tag;
+    border: 1px solid $card-tag;
+    padding: 3px 5px;
+    border-radius: 2px;
+    font-weight: 700;
+  }
+
+  .card__bottom-heading {
+    margin-top: 64px;
+    font-size: 25px;
+    text-align: right;
+  }
+
+  .card__bottom-sign {
+    margin-top: 4px;
+    font-size: 8px;
+    letter-spacing: .2px;
+    text-align: right;
+  }
+
+  .card__btn {
+    font-size: 12px;
+    margin-top: 9px;
+    letter-spacing: .2px;
+    width: 100%;
+    padding: 5px 0;
+    background-color: $btn-color;
+    border: none;
+    border-radius: 2px;
+    color: $white;
+    box-shadow: 1px 1px 1px 0 darken($btn-color, 10%);
+    cursor: pointer;
+  }
+
+}
+
+.card--modified {
+
+  .card__pretext {
+    margin-top: 15px;
+    font-size: 13px;
+  }
+
+  .card__format {
+    margin-top: 16px;
+    font-size: 11px;
+  }
+
+  .card__tag {
+    margin-top: 10px;
+  }
+
+  .card__bottom-heading {
+    margin-top: 14px;
+  }
+
+}
+
+@media (max-width: 700px) {
+
+  .card {
+    margin-bottom: 10px;
+
+    .card__top {
+
+      .card__heading {
+        margin-left: 20px;
+        font-size: 20px;
+      }
+
+    }
+
+    .card__text {
+      display: none;
+    }
+
+    .card__bottom-sign {
+      display: none;
+    }
+
+    .card__bottom-heading {
+      margin-top: 0;
+    }
+
+    .card__tag {
+      float: left;
+    }
+
+    .card__btn {
+      display: none;
+    }
+  }
+
+  .card--modified {
+
+    .card__pretext {
+      margin-top: 10px;
+    }
+
+    .card__tag {
+      margin-top: 20px;
+    }
+
+    .card__format {
+      display: none;
+    }
+
+  }
+
+}

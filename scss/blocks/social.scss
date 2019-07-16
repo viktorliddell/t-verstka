@@ -1,0 +1,44 @@
+.social {
+  margin-top: 34px;
+
+  .social__heading {
+    font-size: 14px;
+    color: $content-color;
+    margin-bottom: 10px;
+  }
+
+  .social__element {
+    display: flex;
+    margin-bottom: 10px;
+
+    .social__icon {
+      width: 16px;
+      height: 16px;
+      flex-basis: 10%;
+    }
+
+    .social__link {
+      text-decoration: none;
+      color: $link-color;
+      font-size: 13px;
+      flex-basis: 90%;
+      padding-left: 10px;
+      padding-top: 2px;
+    }
+
+  }
+}
+
+@media (max-width: 700px) {
+
+  .social {
+
+    .social__heading {
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+
+  }
+  
+
+}

@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@import "reset";
+@import "variables";
+@import "fonts";
+@import "mixins";
+@import "core";
+
+@import "blocks/top";
+@import "blocks/content";
+@import "blocks/social";
+@import "blocks/left-element";
+@import "blocks/right-element";
+@import "blocks/person";
+@import "blocks/social";
+@import "blocks/sub";
+@import "blocks/footer";
+@import "blocks/search";
+@import "blocks/card";

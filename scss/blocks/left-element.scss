@@ -1,0 +1,35 @@
+.left-element {
+
+  .left-element__heading {
+    font-size: 14px;
+    color: $content-color;
+  }
+
+  .left-element__article {
+    margin-top: 25px;
+    font-size: 12px;
+    line-height: 17px;
+    color: $content-text-color;
+    padding-right: 20px;
+  }
+
+  .left-element__sub {
+    margin-top: 41px;
+    font-size: 14px;
+  }
+
+}
+
+@media (max-width: 700px) {
+
+  .left-element {
+
+    .left-element__article {
+      text-align: justify;
+      padding-right: 0;
+    }
+
+  }
+  
+
+}

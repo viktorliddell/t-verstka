@@ -1,0 +1,27 @@
+.person {
+  display: flex;
+  font-size: 13px;
+
+  .person__img {
+    max-width: 34px;
+    max-height: 34px;
+    border-radius: 50%;
+    flex-basis: 30%;
+  }
+
+  .person__element {
+    margin-left: 8px;
+    flex-basis: 70%;
+
+    .person__name {
+      color: $content-color;
+      line-height: 18px;
+    }
+
+    .person__link {
+      text-decoration: none;
+      color: $link-color;
+    }
+  }
+
+}

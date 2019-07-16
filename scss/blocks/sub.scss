@@ -1,0 +1,48 @@
+.sub {
+
+  .sub__heading {
+    letter-spacing: 0.4px;
+    margin-bottom: 24px;
+  }
+
+  .sub__element {
+    float: left;
+    margin-right: 7px;
+    margin-bottom: 9px;
+    
+    .sub__icon-wrapper {
+      display: flex;
+      width: 21px;
+      height: 21px;
+      justify-content: center;
+      align-items: center;
+      float: left;
+
+      .sub__icon {
+        width: 15px;
+        height: 15px;
+      }
+    }
+
+    .sub__icon-wrapper--violet {
+      background-color: $sub-violet;
+    }
+
+    .sub__icon-wrapper--green {
+      background-color: $sub-green;
+    }
+
+    .sub__icon-wrapper--blue {
+      background-color: $sub-blue;
+    }
+
+    .sub__text {
+      display: inline-block;
+      padding: 5px 8px;
+      background-color: $sub-back;
+      font-size: 11px;
+    }
+
+  }
+
+}
